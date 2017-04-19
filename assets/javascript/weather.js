@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var appID = "api.openweathermap.org/data/2.5/forecast?id=524901&APPID=2062afb45e93fb2d3ecbec522afac3ef";
+    var appID = "2062afb45e93fb2d3ecbec522afac3ef";
 
     $(".query_btn").click(function(){
         var query_param = $(this).prev().val();
